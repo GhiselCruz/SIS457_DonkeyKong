@@ -18,6 +18,8 @@ public:
 	// Sets default values for this actor's properties
 	ADisparoDecorador();
 
+	
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -32,4 +34,6 @@ public:
 	FString ObtenerAtributos() override;
 	float Duracion() override;
 	
+	int proyectilRecord;
+
 };

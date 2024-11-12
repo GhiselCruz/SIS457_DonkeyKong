@@ -1,5 +1,7 @@
 C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Definitions.SIS457_DonkeyKong.h
 C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\SIS457_DonkeyKongCharacter.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorInterface.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\DecoradorInterface.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
@@ -31,3 +33,13 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Interfaces/NetworkPredictionInterface.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetworkPredictionInterface.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementComponent.generated.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Proyectil.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\Proyectil.generated.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Jugador.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\Jugador.generated.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\EscudoDecorador.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorBase.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\DecoradorBase.generated.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\EscudoDecorador.generated.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DisparoDecorador.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\DisparoDecorador.generated.h

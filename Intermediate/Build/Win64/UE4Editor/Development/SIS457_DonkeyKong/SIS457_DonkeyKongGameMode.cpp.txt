@@ -7,14 +7,6 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
 C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\SIS457_DonkeyKongGameMode.generated.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\SIS457_DonkeyKongCharacter.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\SIS457_DonkeyKongCharacter.generated.h
 C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Jugador.h
 C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\Jugador.generated.h
 C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\EscudoDecorador.h

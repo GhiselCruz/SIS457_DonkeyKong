@@ -3,9 +3,9 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "DecoradorInterface.h"
 #include "GameFramework/Character.h"
 #include "SIS457_DonkeyKongCharacter.generated.h"
-
 UCLASS(config=Game)
 class ASIS457_DonkeyKongCharacter : public ACharacter
 {
@@ -42,4 +42,17 @@ public:
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+	
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+private:
+	IDecoradorInterface* Jugador;
 };

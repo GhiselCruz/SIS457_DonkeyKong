@@ -6,6 +6,11 @@
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Proyectil.h"
+#include "Jugador.h"
+#include "EscudoDecorador.h"
+#include "DisparoDecorador.h"
+
 
 ASIS457_DonkeyKongCharacter::ASIS457_DonkeyKongCharacter()
 {
@@ -43,7 +48,54 @@ ASIS457_DonkeyKongCharacter::ASIS457_DonkeyKongCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
+
+	
 }
+
+
+
+void ASIS457_DonkeyKongCharacter::BeginPlay()
+{
+	Super::BeginPlay();
+	//Engendramos al jugador principal
+	AJugador* JugadorPrincipal = GetWorld()->SpawnActor<AJugador>(AJugador::StaticClass());
+
+	//Engendramos un decorador para correr en el jugador principal
+	ADisparoDecorador* Disparo = GetWorld()->SpawnActor<ADisparoDecorador>(ADisparoDecorador::StaticClass());
+	Disparo->SetJugador(JugadorPrincipal);
+
+	Jugador = Disparo;
+	Jugador->Empezar();
+	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Cyan,
+		FString::Printf(TEXT("Jugador ahora esta en %s"), *Jugador->Estado()));
+	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Cyan,
+		FString::Printf(TEXT("Jugador ahora tiene los atributos de %s"), *Jugador->ObtenerAtributos()));
+	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Cyan,
+		FString::Printf(TEXT("Su duracion es de %.2f"), Jugador->Duracion()));
+
+
+	//Engendramos un decorador para un escudo en el jugador principal
+	AEscudoDecorador* Escudo = GetWorld()->SpawnActor<AEscudoDecorador>(AEscudoDecorador::StaticClass());
+	Escudo->SetJugador(Disparo);
+
+	Jugador = Escudo;
+	Jugador->Empezar();
+	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Emerald,
+		FString::Printf(TEXT("Jugador ahora esta en %s"), *Jugador->Estado()));
+	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Emerald,
+		FString::Printf(TEXT("Jugador ahora tiene los atributos de %s"), *Jugador->ObtenerAtributos()));
+	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Emerald,
+		FString::Printf(TEXT("Su duracion es de %.2f"), Jugador->Duracion()));
+}
+
+void ASIS457_DonkeyKongCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	
+}
+
+
+
 
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -52,6 +104,7 @@ void ASIS457_DonkeyKongCharacter::SetupPlayerInputComponent(class UInputComponen
 {
 	// set up gameplay key bindings
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	//PlayerInputComponent->BindAction("Empezar", IE_Released, this, &ADisparoDecorador::Empezar);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ASIS457_DonkeyKongCharacter::MoveRight);
 
@@ -63,6 +116,8 @@ void ASIS457_DonkeyKongCharacter::MoveRight(float Value)
 {
 	// add movement in that direction
 	AddMovementInput(FVector(0.f,-1.f,0.f), Value);
+	
+
 }
 
 void ASIS457_DonkeyKongCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)

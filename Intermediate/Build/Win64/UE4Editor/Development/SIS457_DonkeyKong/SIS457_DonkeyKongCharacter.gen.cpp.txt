@@ -2,6 +2,8 @@ C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Bu
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong/SIS457_DonkeyKongCharacter.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorInterface.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\DecoradorInterface.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h

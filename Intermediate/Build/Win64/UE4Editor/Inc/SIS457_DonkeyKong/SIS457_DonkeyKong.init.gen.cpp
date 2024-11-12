@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeSIS457_DonkeyKong_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xC546AB8C,
-				0xB648121C,
+				0x373A0446,
+				0x7BE82978,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
