@@ -46,5 +46,6 @@ FString ADisparoDecorador::ObtenerAtributos()
 float ADisparoDecorador::Duracion()
 {
 	return Super::Duracion() + 15.f;
+
 }
 
