@@ -1,0 +1,31 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SIS457_DonkeyKong-5330.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\SIS457_DonkeyKongEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\DecoradorBase.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\DecoradorInterface.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\DisparoDecorador.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Escudo.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\EscudoDecorador.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Jugador.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Proyectil.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\SIS457_DonkeyKong.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\SIS457_DonkeyKongCharacter.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\SIS457_DonkeyKongGameMode.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\DecoradorBase.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\DecoradorInterface.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\DisparoDecorador.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Escudo.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\EscudoDecorador.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Jugador.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Proyectil.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\SIS457_DonkeyKong.init.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\SIS457_DonkeyKongCharacter.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\SIS457_DonkeyKongGameMode.gen.cpp.obj"
+"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Default.rc2.res"
+/OUT:"C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\UE4Editor-SIS457_DonkeyKong-5330.lib"

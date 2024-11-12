@@ -9,10 +9,14 @@ AEscudo::AEscudo()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	static ConstructorHelpers::FObjectFinder<UStaticMesh>ProjectileMeshAsset(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
+	ConstructorHelpers::FObjectFinder<UStaticMesh> MeshAsset = ConstructorHelpers::FObjectFinder<UStaticMesh>(TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cube.Shape_Cube'"));
 
-	mallaEscudo = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ProjectileMesh0"));
-	mallaEscudo->SetStaticMesh(ProjectileMeshAsset.Object);
+	mallaEscudo = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh"));
+	mallaEscudo->SetStaticMesh(MeshAsset.Object);
+	RootComponent = mallaEscudo;
+
+	FVector NewScale(0.1f, 1.0f, 1.0f); // Cambia estos valores según tus necesidades
+	SetActorScale3D(NewScale);
 
 }
 

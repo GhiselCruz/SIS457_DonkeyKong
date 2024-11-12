@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\SIS457_DonkeyKong.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7353757A-9833-419B-AFD1-2C7BB1109691}</UniqueIdentifier>
+      <UniqueIdentifier>{8C0A6D85-F333-4BFA-BC71-06C88329A091}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\SIS457_DonkeyKong.Target.cs">
       <Filter>Source</Filter>
@@ -15,7 +15,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{70568122-28F2-41EF-BB12-4E45A33416DD}</UniqueIdentifier>
+      <UniqueIdentifier>{0D9B54EE-DF31-43A0-84CB-F599925F3484}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -33,7 +33,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\SIS457_DonkeyKong">
-      <UniqueIdentifier>{2A879315-2746-41D6-A97D-09EE12E53D66}</UniqueIdentifier>
+      <UniqueIdentifier>{A69388E4-3F13-47CC-A5DB-DCCA86160B4C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\SIS457_DonkeyKong\DecoradorBase.cpp">
       <Filter>Source\SIS457_DonkeyKong</Filter>

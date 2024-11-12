@@ -35,7 +35,7 @@ void AEscudoDecorador::Empezar()
 	APawn* Player1 = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 	if (Player1)
 	{
-		FVector ubicacion = Player1->GetActorLocation() + FVector(0.0f, 60.0f, 0.0f);
+		FVector ubicacion = Player1->GetActorLocation() + FVector(20.0f, 40.0f, -15.0f);
 		FRotator rotacion = Player1->GetActorRotation();
 		AEscudo* NewProj0 = GetWorld()->SpawnActor<AEscudo>(ubicacion, rotacion);
 		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Turquoise, TEXT("Mario con escudo"));

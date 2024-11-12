@@ -20,7 +20,7 @@ AProyectil::AProyectil()
 	ProyectilMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ProjectileMesh0"));
 	ProyectilMesh->SetStaticMesh(ProjectileMeshAsset.Object);
 
-	FVector NewScale(1.0f, 0.2f, 1.0f); // Cambia estos valores según tus necesidades
+	FVector NewScale(1.0f, 1.0f, 1.0f); // Cambia estos valores según tus necesidades
 	SetActorScale3D(NewScale);
 	vel = 1000;
 }
