@@ -22,7 +22,8 @@ private: \
 	friend struct Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics; \
 public: \
 	DECLARE_CLASS(ASIS457_DonkeyKongCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SIS457_DonkeyKong"), NO_API) \
-	DECLARE_SERIALIZER(ASIS457_DonkeyKongCharacter)
+	DECLARE_SERIALIZER(ASIS457_DonkeyKongCharacter) \
+	virtual UObject* _getUObject() const override { return const_cast<ASIS457_DonkeyKongCharacter*>(this); }
 
 
 #define SIS457_DonkeyKong_Source_SIS457_DonkeyKong_SIS457_DonkeyKongCharacter_h_12_INCLASS \
@@ -31,7 +32,8 @@ private: \
 	friend struct Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics; \
 public: \
 	DECLARE_CLASS(ASIS457_DonkeyKongCharacter, ACharacter, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/SIS457_DonkeyKong"), NO_API) \
-	DECLARE_SERIALIZER(ASIS457_DonkeyKongCharacter)
+	DECLARE_SERIALIZER(ASIS457_DonkeyKongCharacter) \
+	virtual UObject* _getUObject() const override { return const_cast<ASIS457_DonkeyKongCharacter*>(this); }
 
 
 #define SIS457_DonkeyKong_Source_SIS457_DonkeyKong_SIS457_DonkeyKongCharacter_h_12_STANDARD_CONSTRUCTORS \

@@ -1,7 +1,7 @@
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Definitions.SIS457_DonkeyKong.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Definitions.SIS457_DonkeyKong.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong/Jugador.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorInterface.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\DecoradorInterface.generated.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\Jugador.generated.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong/Jugador.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorInterface.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\DecoradorInterface.generated.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\Jugador.generated.h

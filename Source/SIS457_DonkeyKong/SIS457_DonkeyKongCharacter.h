@@ -1,13 +1,13 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-
+#include "DecoradorInterface.h"
 #include "CoreMinimal.h"
 #include "DecoradorInterface.h"
 #include "GameFramework/Character.h"
 #include "SIS457_DonkeyKongCharacter.generated.h"
 UCLASS(config=Game)
-class ASIS457_DonkeyKongCharacter : public ACharacter
+class ASIS457_DonkeyKongCharacter : public ACharacter, public IDecoradorInterface
 {
 	GENERATED_BODY()
 
@@ -55,4 +55,10 @@ public:
 
 private:
 	IDecoradorInterface* Jugador;
+
+public:
+	void Empezar() override {};
+	FString Estado() override { return " "; };
+	FString ObtenerAtributos() override { return  ""; };
+	float Duracion() override { return 0.f; };
 };

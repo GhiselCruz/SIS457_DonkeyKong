@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeSIS457_DonkeyKongCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_SIS457_DonkeyKong();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	SIS457_DONKEYKONG_API UClass* Z_Construct_UClass_UDecoradorInterface_NoRegister();
 // End Cross Module References
 	void ASIS457_DonkeyKongCharacter::StaticRegisterNativesASIS457_DonkeyKongCharacter()
 	{
@@ -42,6 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeSIS457_DonkeyKongCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -82,6 +84,9 @@ void EmptyLinkFunctionForGeneratedCodeSIS457_DonkeyKongCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::NewProp_SideViewCameraComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::NewProp_CameraBoom,
 	};
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UDecoradorInterface_NoRegister, (int32)VTABLE_OFFSET(ASIS457_DonkeyKongCharacter, IDecoradorInterface), false },
+		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASIS457_DonkeyKongCharacter>::IsAbstract,
 	};
@@ -92,11 +97,11 @@ void EmptyLinkFunctionForGeneratedCodeSIS457_DonkeyKongCharacter() {}
 		DependentSingletons,
 		nullptr,
 		Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::PropPointers,
-		nullptr,
+		InterfaceParams,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
 		UE_ARRAY_COUNT(Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::PropPointers),
-		0,
+		UE_ARRAY_COUNT(InterfaceParams),
 		0x008000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ASIS457_DonkeyKongCharacter_Statics::Class_MetaDataParams))
 	};
@@ -109,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeSIS457_DonkeyKongCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASIS457_DonkeyKongCharacter, 3849447397);
+	IMPLEMENT_CLASS(ASIS457_DonkeyKongCharacter, 3490869020);
 	template<> SIS457_DONKEYKONG_API UClass* StaticClass<ASIS457_DonkeyKongCharacter>()
 	{
 		return ASIS457_DonkeyKongCharacter::StaticClass();
