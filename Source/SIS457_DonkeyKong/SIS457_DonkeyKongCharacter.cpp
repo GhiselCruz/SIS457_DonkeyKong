@@ -57,12 +57,19 @@ ASIS457_DonkeyKongCharacter::ASIS457_DonkeyKongCharacter()
 void ASIS457_DonkeyKongCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+
+	ACharacter* Mario = Cast<ACharacter>(GetWorld()->GetFirstPlayerController()->GetPawn());
+	if (Mario) {
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue,
+			FString::Printf(TEXT("Mario encontrado")));
+	}
+
 	//Engendramos al jugador principal
-	AJugador* JugadorPrincipal = GetWorld()->SpawnActor<AJugador>(AJugador::StaticClass());
+	//AJugador* JugadorPrincipal = GetWorld()->SpawnActor<AJugador>(AJugador::StaticClass());
 
 	//Engendramos un decorador para correr en el jugador principal
 	ADisparoDecorador* Disparo = GetWorld()->SpawnActor<ADisparoDecorador>(ADisparoDecorador::StaticClass());
-	Disparo->SetJugador(JugadorPrincipal);
+	Disparo->SetJugador(Mario);
 
 	Jugador = Disparo;
 	Jugador->Empezar();

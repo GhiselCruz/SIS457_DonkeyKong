@@ -1,3 +1,3 @@
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Definitions.SIS457_DonkeyKong.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Escudo.h
-C:\Users\Ghisel Cruz\Documents\Unreal Projects\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\Escudo.generated.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Development\SIS457_DonkeyKong\Definitions.SIS457_DonkeyKong.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Escudo.h
+D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Intermediate\Build\Win64\UE4Editor\Inc\SIS457_DonkeyKong\Escudo.generated.h
