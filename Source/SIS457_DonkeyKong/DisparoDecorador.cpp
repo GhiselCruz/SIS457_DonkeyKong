@@ -46,7 +46,7 @@ void ADisparoDecorador::Empezar()
 		FVector ubicacion = Player->GetActorLocation() + FVector(0.0f, 0.0f, 20.0f);
 		FRotator rotacion = Player->GetActorRotation();
 		AProyectil* NewProj0 = GetWorld()->SpawnActor<AProyectil>(ubicacion, rotacion);
-		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Turquoise, TEXT("¡Disparo realizado!"));
+		//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Turquoise, TEXT("¡Disparo realizado!"));
 	}
 	
     

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Auxiliatura\\SIS457\\02_24\\Alumnos\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKong\\SIS457_DonkeyKong.Build.cs",
-		"D:\\Auxiliatura\\SIS457\\02_24\\Alumnos\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKong.Target.cs",
-		"D:\\Auxiliatura\\SIS457\\02_24\\Alumnos\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKongEditor.Target.cs"
+		"C:\\Users\\Ghisel Cruz\\Documents\\Unreal Projects\\Decoreitor Arreglado\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKong\\SIS457_DonkeyKong.Build.cs",
+		"C:\\Users\\Ghisel Cruz\\Documents\\Unreal Projects\\Decoreitor Arreglado\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKong.Target.cs",
+		"C:\\Users\\Ghisel Cruz\\Documents\\Unreal Projects\\Decoreitor Arreglado\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKongEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }

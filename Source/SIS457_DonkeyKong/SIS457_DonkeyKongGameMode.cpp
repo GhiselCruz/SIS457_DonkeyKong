@@ -2,9 +2,10 @@
 
 #include "SIS457_DonkeyKongGameMode.h"
 #include "UObject/ConstructorHelpers.h"
-#include "Jugador.h"
 #include "EscudoDecorador.h"
 #include "DisparoDecorador.h"
+#include "VidasEnemigoObserver.h"
+#include "Enemigo.h"
 
 ASIS457_DonkeyKongGameMode::ASIS457_DonkeyKongGameMode()
 {
@@ -19,35 +20,17 @@ ASIS457_DonkeyKongGameMode::ASIS457_DonkeyKongGameMode()
 void ASIS457_DonkeyKongGameMode::BeginPlay()
 {
 	Super::BeginPlay();
-	/*//Engendramos al jugador principal
-	AJugador* JugadorPrincipal = GetWorld()->SpawnActor<AJugador>(AJugador::StaticClass());
+	
+	observer = GetWorld()->SpawnActor<AVidasEnemigoObserver>(AVidasEnemigoObserver::StaticClass());
+	enemigo = GetWorld()->SpawnActor<AEnemigo>(AEnemigo::StaticClass(), FVector(1160.0f, 300.0f, 150.0f), FRotator::ZeroRotator);
+	enemigo = GetWorld()->SpawnActor<AEnemigo>(AEnemigo::StaticClass(), FVector(1160.0f, -300.0f, 350.0f), FRotator::ZeroRotator);
+	enemigo = GetWorld()->SpawnActor<AEnemigo>(AEnemigo::StaticClass(), FVector(1160.0f, 500.0f, 400.0f), FRotator::ZeroRotator);
 
-	//Engendramos un decorador para correr en el jugador principal
-	ADisparoDecorador* Disparo = GetWorld()->SpawnActor<ADisparoDecorador>(ADisparoDecorador::StaticClass());
-	Disparo->SetJugador(JugadorPrincipal);
+	enemigo->EstablecerObserver(observer);
+	observer->EstablecerAccion("Quitavida");
+	observer->EstablecerAccion("QuitaVida");
+	observer->EstablecerAccion("QuitaVida");
 
-	Jugador = Disparo;
-	Jugador->Empezar();
-	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Cyan,
-		FString::Printf(TEXT("Jugador ahora esta en %s"), *Jugador->Estado()));
-	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Cyan,
-		FString::Printf(TEXT("Jugador ahora tiene los atributos de %s"), *Jugador->ObtenerAtributos()));
-	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Cyan,
-		FString::Printf(TEXT("Su duracion es de %.2f"), Jugador->Duracion()));
-
-
-	//Engendramos un decorador para un escudo en el jugador principal
-	AEscudoDecorador* Escudo = GetWorld()->SpawnActor<AEscudoDecorador>(AEscudoDecorador::StaticClass());
-	Escudo->SetJugador(Disparo);
-
-	Jugador = Escudo;
-	Jugador->Empezar();
-	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Emerald,
-		FString::Printf(TEXT("Jugador ahora esta en %s"), *Jugador->Estado()));
-	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Emerald,
-		FString::Printf(TEXT("Jugador ahora tiene los atributos de %s"), *Jugador->ObtenerAtributos()));
-	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::Emerald,
-		FString::Printf(TEXT("Su duracion es de %.2f"), Jugador->Duracion()));*/
 }
 
 void ASIS457_DonkeyKongGameMode::Tick(float DeltaTime)

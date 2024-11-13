@@ -19,12 +19,16 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	class AVidasEnemigoObserver* observer;
+	class AEnemigo* enemigo;
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-private:
-	IDecoradorInterface* Jugador;
+
+
+
 };
 
 

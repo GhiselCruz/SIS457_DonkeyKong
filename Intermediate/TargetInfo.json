@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "SIS457_DonkeyKong",
-			"Path": "C:\\Users\\Ghisel Cruz\\Documents\\Unreal Projects\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKong.Target.cs",
+			"Path": "C:\\Users\\Ghisel Cruz\\Documents\\Unreal Projects\\Decoreitor Arreglado\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKong.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "SIS457_DonkeyKongEditor",
-			"Path": "C:\\Users\\Ghisel Cruz\\Documents\\Unreal Projects\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKongEditor.Target.cs",
+			"Path": "C:\\Users\\Ghisel Cruz\\Documents\\Unreal Projects\\Decoreitor Arreglado\\SIS457_DonkeyKong\\Source\\SIS457_DonkeyKongEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

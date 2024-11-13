@@ -1,9 +1,14 @@
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\EscudoDecorador.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorBase.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Proyectil.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DisparoDecorador.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Escudo.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\SIS457_DonkeyKongGameMode.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\SIS457_DonkeyKongCharacter.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Jugador.h
-D:\Auxiliatura\SIS457\02_24\Alumnos\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorInterface.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorBase.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DecoradorInterface.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\DisparoDecorador.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Enemigo.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\IAccionEnemiga.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Escudo.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\EscudoDecorador.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\ISuscriptor.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Proyectil.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Publicador.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\SIS457_DonkeyKongCharacter.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\SIS457_DonkeyKongGameMode.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\VidasEnemigoObserver.h
+C:\Users\Ghisel Cruz\Documents\Unreal Projects\Decoreitor Arreglado\SIS457_DonkeyKong\Source\SIS457_DonkeyKong\Jugador.h
